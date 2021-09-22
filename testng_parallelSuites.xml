@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+	<test thread-count="2" parallel="tests" name="TestRunner_01">
+		<classes>
+			<class
+				name="com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" parallel="tests" name="TestRnnuer_02">
+		<classes>
+
+			<class
+				name="com.crm.Vtiger.LeadsTest.TC_08_createLeadByDiffrentLeadStatusTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" parallel="tests" name="TestRunner_03">
+		<classes>
+
+			<class
+				name="com.crm.Vtiger.LeadsTest.TC_09_createLeadByDiffrentRatingTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-15T12:27:31 IST" name="Suite" finished-at="2021-09-15T12:28:17 IST" duration-ms="45377">
+    <groups>
+      <group name="SmokeSuites">
+        <method signature="TC_07_createLeadByDiffrentIndustryTest.loginTest()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@21282ed8]" name="loginTest" class="com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest"/>
+        <method signature="TC_07_createLeadByDiffrentIndustryTest.loginTest()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" name="loginTest" class="com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest"/>
+      </group> <!-- SmokeSuites -->
+    </groups>
+    <test started-at="2021-09-15T12:27:31 IST" name="TestRunner_Chrome" finished-at="2021-09-15T12:27:59 IST" duration-ms="27661">
+      <class name="com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@21282ed8]" started-at="2021-09-15T12:27:31 IST" name="launchBrowser" finished-at="2021-09-15T12:27:35 IST" duration-ms="3690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@21282ed8]" started-at="2021-09-15T12:27:35 IST" name="loginToApp" finished-at="2021-09-15T12:27:39 IST" duration-ms="4324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="loginTest()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@21282ed8]" started-at="2021-09-15T12:27:39 IST" name="loginTest" finished-at="2021-09-15T12:27:57 IST" duration-ms="17402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="logOutOfApp()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@21282ed8]" started-at="2021-09-15T12:27:57 IST" name="logOutOfApp" finished-at="2021-09-15T12:27:58 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutOfApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@21282ed8]" started-at="2021-09-15T12:27:58 IST" name="closeBrowser" finished-at="2021-09-15T12:27:59 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest -->
+    </test> <!-- TestRunner_Chrome -->
+    <test started-at="2021-09-15T12:27:31 IST" name="TestRunner_firefox" finished-at="2021-09-15T12:28:17 IST" duration-ms="45377">
+      <class name="com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest">
+        <test-method is-config="true" signature="connectToDb()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:27:31 IST" name="connectToDb" finished-at="2021-09-15T12:27:31 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDb -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:27:31 IST" name="launchBrowser" finished-at="2021-09-15T12:28:00 IST" duration-ms="28277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:28:00 IST" name="loginToApp" finished-at="2021-09-15T12:28:02 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="loginTest()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:28:02 IST" name="loginTest" finished-at="2021-09-15T12:28:14 IST" duration-ms="11752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="logOutOfApp()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:28:14 IST" name="logOutOfApp" finished-at="2021-09-15T12:28:15 IST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutOfApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:28:15 IST" name="closeBrowser" finished-at="2021-09-15T12:28:17 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeTheDB()[pri:0, instance:com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest@5d534f5d]" started-at="2021-09-15T12:28:17 IST" name="closeTheDB" finished-at="2021-09-15T12:28:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDB -->
+      </class> <!-- com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest -->
+    </test> <!-- TestRunner_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

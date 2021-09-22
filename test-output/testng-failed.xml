@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestRunner_firefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="connectToDb"/>
+          <include name="logOutOfApp"/>
+          <include name="closeTheDB"/>
+          <include name="loginToApp"/>
+        </methods>
+      </class> <!-- com.crm.Vtiger.LeadsTest.TC_07_createLeadByDiffrentIndustryTest -->
+    </classes>
+  </test> <!-- TestRunner_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
